@@ -23,3 +23,8 @@ Factory Method
 
 Prototype
 - The concrete factory is initialized with a prototypical instance of each product in the family and it creates a new product by cloning its prototype (used if many product families are possible). This eliminates the need for a new concrete factory class for each new product family.
+
+# Maze - Abstract Factory Example
+This program consists of a maze that utilizes factories to create differnt types of rooms, walls and doors of a hypothetical game. These actions are shows by print messages to the console.
+![image](https://github.com/evan-placenis/Abstract-Factory/assets/112578037/7803212d-0d00-42ab-92f5-445357a38a69)
+
