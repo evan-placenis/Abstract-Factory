@@ -11,6 +11,8 @@ Concrete factories are created at run-time. These factories create product objec
 - Isolates concrete classes
 - Enhances the ability to exchange productg families easily
 - Promotes consistency amoung products (ensures the application uses products from one family at a time)
+
+
 **Consequences**
 - Supporting new kinds of products if difficult
 
