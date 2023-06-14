@@ -17,6 +17,7 @@ Concrete factories are created at run-time. These factories create product objec
 - Supporting new kinds of products if difficult
 
 **Commonly used with**
+
 Factory Method 
 - Define a factory method for each product, however it requires a new concrete factory for each product family even if they differ slightly
 
