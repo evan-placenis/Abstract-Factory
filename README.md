@@ -27,12 +27,12 @@ Prototype
 # Maze - Abstract Factory Example
 This program consists of a maze that utilizes factories to create differnt types of rooms, walls and doors of a hypothetical game. These actions are shows by print messages to the console.
 
-![image](https://github.com/evan-placenis/Abstract-Factory/assets/112578037/7803212d-0d00-42ab-92f5-445357a38a69)
+![image](https://github.com/evan-placenis/Abstract-Factory/assets/112578037/568c15d9-e65f-468f-b9d2-52fb03ea5d63)
 
-The example shows the utility of the pattern by being able to simpily call a different factory withing the Client file (line 29-31) and produce the desired products.
+The example shows the utility of the pattern by being able to easily create a new factory and call it withing the Client file (line 29-31) to extend the application (amoung other benefits).
 
 ![image](https://github.com/evan-placenis/Abstract-Factory/assets/112578037/313ea2bd-bb4b-4aaf-ac44-95f016fbbc3f)
 
-This simple example shows the power of the abstract factory pattern in larger applications.
+
 
 
