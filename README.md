@@ -1,4 +1,4 @@
-# Abstract-Factory (Creational DP)
+# Abstract-Factory (Creational)
 The Abstract Factoy design pattern is useful when;
 - a system should be independent of how its products are created, composed and represented
 - a system should be configured with one of multiple families of products
@@ -7,16 +7,16 @@ The Abstract Factoy design pattern is useful when;
 
 Concrete factories are created at run-time. These factories create product objects with a particular implementation. Seperate products can be created by using the corresponding concrete factory. The AbstractFactory defers creation of products to its Concrete Factory sub-class.
 
-**Benefits**
+**Benefits:**
 - Isolates concrete classes
 - Enhances the ability to exchange productg families easily
 - Promotes consistency amoung products (ensures the application uses products from one family at a time)
 
 
-**Consequences**
+**Consequences:**
 - Supporting new kinds of products if difficult
 
-**Other Design Patterns Commonly used with**
+**Other Design Patterns Commonly used with Abstract Factory:**
 
 Factory Method 
 - Define a factory method for each product, however it requires a new concrete factory for each product family even if they differ slightly
